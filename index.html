@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Irlanda 2026: Diario di Viaggio</title>
+<style>
+    :root { --gold:#f0b429; --dark:#06101f; --accent:#008040; --white:#fff; }
+    body { font-family: 'Segoe UI', sans-serif; background: var(--dark); color: #e8eef6; padding: 20px; line-height: 1.8; }
+    .container { max-width: 800px; margin: auto; }
+    h1 { text-align: center; color: var(--gold); margin-bottom: 30px; font-size: 2.5rem; }
+    .accordion { background: rgba(255,255,255,0.08); cursor: pointer; padding: 20px; width: 100%; text-align: left; border: 2px solid var(--accent); border-radius: 8px; color: var(--white); font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; transition: 0.3s; }
+    .accordion:hover { background: rgba(0, 128, 64, 0.2); }
+    .panel { padding: 0 20px; background: rgba(255,255,255,0.03); display: none; overflow: hidden; margin-bottom: 20px; border-radius: 0 0 8px 8px; border-left: 2px solid var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Il Nostro Viaggio: Irlanda 2026</h1>
+    
+    <button class="accordion">📘 Percorso Formativo e PCTO</button>
+    <div class="panel">
+        <p>Le giornate sono state scandite da un equilibrio tra studio della lingua inglese e attività di PCTO[span_0](start_span)[span_0](end_span). Non ci siamo limitati a lezioni frontali, ma abbiamo partecipato a workshop su temi tecnologici come Coding, STEM e Sostenibilità[span_1](start_span)[span_1](end_span). La parte più dinamica è stata quella dei giochi di gruppo: cacce al tesoro e indovinelli che ci hanno costretto a collaborare, migliorando la nostra capacità di risolvere problemi in contesti imprevisti[span_2](start_span)[span_2](end_span).</p>
+    </div>
+
+    <button class="accordion">🏨 Vita in Hotel e Nuove Conoscenze</button>
+    <div class="panel">
+        <p>L'alloggio in hotel è stato un elemento centrale della nostra esperienza di gruppo[span_3](start_span)[span_3](end_span). Vivevamo in camere da cinque persone, una convivenza che ha rafforzato notevolmente i nostri legami[span_4](start_span)[span_4](end_span). Ho avuto l'opportunità di fare molte nuove conoscenze; sebbene conoscessi già alcuni dei partecipanti, il clima del viaggio mi ha permesso di approfondire rapporti con persone con cui, in classe, avevo meno confidenza[span_5](start_span)[span_5](end_span). È stato un modo per crescere sia umanamente che socialmente[span_6](start_span)[span_6](end_span).</p>
+    </div>
+
+    <button class="accordion">🍽️ Routine Alimentare</button>
+    <div class="panel">
+        <p>La gestione dei pasti è stata un'avventura nella nostra avventura quotidiana[span_7](start_span)[span_7](end_span). La giornata iniziava con la colazione in hotel, essenziale per affrontare il programma[span_8](start_span)[span_8](end_span). Per il pranzo, ricevevamo un pratico pranzo al sacco che consumavamo durante le escursioni o le attività esterne[span_9](start_span)[span_9](end_span). La vera particolarità delle nostre serate era la cena: siamo diventati habitué di un ristorante turco, dove ci siamo trovati molto bene[span_10](start_span)[span_10](end_span). Nonostante la difficoltà iniziale ad adattarci a una cucina diversa, questa routine è diventata un appuntamento fisso che ci ha aiutato a sentirci più uniti[span_11](start_span)[span_11](end_span).</p>
+    </div>
+
+    <button class="accordion">🏛️ Esplorazioni: Da Dublino a Cork</button>
+    <div class="panel">
+        <p>Ogni città che abbiamo visitato ci ha lasciato un segno diverso[span_12](start_span)[span_12](end_span). A Dublino siamo rimasti colpiti dalla solennità del Trinity College, che racconta la storia accademica dell'Irlanda[span_13](start_span)[span_13](end_span). Abbiamo visitato il Museo del Titanic, fondamentale per comprendere l'impatto emotivo di questa tragedia[span_14](start_span)[span_14](end_span). Spostandoci verso Galway e Cork, abbiamo scoperto realtà più locali ma altrettanto vivaci, visitando musei storici e parchi cittadini che testimoniano la cultura gaelica[span_15](start_span)[span_15](end_span). Ogni tappa è stata preparata con cura per offrirci una panoramica completa, non solo del paesaggio, ma della storia irlandese[span_16](start_span)[span_16](end_span).</p>
+    </div>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+            panel.style.display = (panel.style.display === "block") ? "none" : "block";
+        });
+    }
+</script>
+
+</body>
+</html>
